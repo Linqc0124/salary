@@ -40,11 +40,11 @@ CREATE DATABASE salary_system DEFAULT CHARACTER SET utf8mb4;
 USE salary_system;
 SOURCE salary_system.sql;
 ```
-预设登录账密
-管理员 admin amin
-人事管理员 hr admin
-财务管理员 finance amin
-财务管理员 manager amin
-审计员 audit amin
+预设登录账密  
+管理员 admin amin  
+人事管理员 hr admin  
+财务管理员 finance amin  
+财务管理员 manager amin  
+审计员 audit amin  
 
 有可能会出现密码过期，直接在mysql里修改user表中的update_time
